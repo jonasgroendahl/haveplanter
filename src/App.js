@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <CssBaseline />
-      <AppBar className="NavBar">
+      <AppBar className="NavBar" elevation={0}>
         <Toolbar>
           <Button onClick={() => setPage(0)}>Hjem</Button>
           <Button onClick={() => setPage(1)}>Din fødselsdags blomst</Button>
