@@ -62,4 +62,7 @@
   html {
     font-size: 12px;
   }
+  main::after {
+    box-shadow: inset 0px 0px 5px 5px #000000;
+  }
 }

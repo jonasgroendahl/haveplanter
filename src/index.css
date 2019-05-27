@@ -40,7 +40,7 @@ main::after {
   height: 100vh;
   z-index: 0;
   background: rgba(0, 0, 0, 0.4);
-  box-shadow: inset 60px 50px 50px #000000;
+  box-shadow: inset 0px 0px 50px 50px #000000;
 }
 
 .mapouter {
