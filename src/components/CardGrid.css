@@ -1,0 +1,24 @@
+.CardGrid {
+  display: flex;
+}
+
+.CardGrid > *:not(:last-child) {
+  margin-right: 15px;
+}
+
+/*! autoprefixer: off */
+.CardGrid .Card p {
+  cursor: default;
+  font-size: 0.8rem;
+  margin-bottom: 5px !important;
+  max-height: 3.2rem;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}

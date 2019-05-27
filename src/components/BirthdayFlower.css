@@ -1,0 +1,8 @@
+.BirthdayFlower {
+  padding: 20px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
