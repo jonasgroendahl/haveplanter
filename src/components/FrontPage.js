@@ -3,8 +3,9 @@ import { Button, Fab, Portal } from "@material-ui/core";
 import { WbSunny } from "@material-ui/icons";
 import "./FrontPage.css";
 import CardGrid from "./CardGrid";
-import frontImg from "../assets/IMG_20190504_133109 (1).jpg";
 import { useSpring, animated } from "react-spring";
+
+const frontImg = "https://res.cloudinary.com/dcbbunxhy/image/upload/c_scale,q_auto,w_1920/v1558982508/new.jpg";
 
 const items = [
   {

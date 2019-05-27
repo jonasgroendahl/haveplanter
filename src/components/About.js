@@ -16,10 +16,10 @@ export default function About() {
             height="500"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=%C3%B8rsbjergvej%2020%20&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
-            marginheight="0"
-            marginwidth="0"
+            marginHeight="0"
+            marginWidth="0"
             title="Google Maps"
           />
         </div>

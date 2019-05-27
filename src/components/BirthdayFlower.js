@@ -19,7 +19,7 @@ export default function BirthdayFlower() {
   });
 
   return (
-    <div>
+    <div className="BirthdayFlower-wrapper">
       <div className="BirthdayFlower">
         <p>Find ud af hvilken blomst der er din fødselsdagsblomst</p>
         <FormControl>

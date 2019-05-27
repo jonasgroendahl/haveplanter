@@ -32,3 +32,34 @@
   align-items: center;
   height: 100%;
 }
+
+@media (max-width: 700px) {
+  .FrontPage .flex {
+    flex-direction: column;
+  }
+  .FrontPage .flex > *:not(:last-child) {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .CardGrid {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+    max-height: 550px;
+    overflow: auto;
+    flex-flow: wrap;
+  }
+  .CardGrid > * {
+    margin: 10px 0;
+    margin-right: 0;
+  }
+  .CardGrid img {
+    height: 100px !important;
+  }
+  .BirthdayFlower img {
+    height: 150px !important;
+  }
+  html {
+    font-size: 12px;
+  }
+}

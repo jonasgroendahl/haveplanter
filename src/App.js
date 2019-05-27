@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { AppBar, Toolbar, Button, CssBaseline } from "@material-ui/core";
-import frontImg from "./assets/IMG_20190504_133109 (1).jpg";
 import FrontPage from "./components/FrontPage";
-import { useSpring, animated, useTransition } from "react-spring";
+import { animated, useTransition } from "react-spring";
 import BirthdayFlower from "./components/BirthdayFlower";
 import About from "./components/About";
+
+const frontImg = "https://res.cloudinary.com/dcbbunxhy/image/upload/c_scale,q_auto,w_1920/v1558982508/new.jpg";
 
 function App() {
   const [season, setSeason] = useState(null);
@@ -16,9 +17,7 @@ function App() {
     leave: { opacity: 0, transform: "translate3d(0, 500px, 0)" }
   });
 
-  const imgProps = useSpring({
-    filter: page !== 0 ? "sepia(0.5)" : "sepia(0)"
-  });
+  const imgProps = {};
 
   const renderedPage = transitions.map(({ item, key, props }) => {
     console.log("page", item);
